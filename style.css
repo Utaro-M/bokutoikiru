@@ -3,6 +3,19 @@
 /*   width: 100%; */
 /*   padding-top: 56.25%; */
 /* } */
+.wrapper {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .wrapper {
+      width: 100%;
+    }
+  }
 .video-content {
   width: 100%;
   height: auto;
